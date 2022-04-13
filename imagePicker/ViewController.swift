@@ -16,6 +16,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,UINaviga
     override func viewDidLoad() {
         super.viewDidLoad()
         initialSetup()
+        
+        print("Hello World")
     }
     private func initialSetup() {
         selectPhotoButton.layer.cornerRadius = 10
